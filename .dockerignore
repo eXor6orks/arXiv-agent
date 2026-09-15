@@ -1,0 +1,12 @@
+.git
+.gitignore
+arXiv/
+data/
+.env
+__pycache__/
+*.pyc
+papiers_ia/
+sources/
+dataset_similarite.json
+README.md
+CHANGELOG.md
