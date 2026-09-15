@@ -47,3 +47,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Batch embedding
 - Per-chunk weighting
 - Re-ranking
+- Hybrid search (dense + sparse/BM25 vectors in Qdrant)
+- Metadata filtering exposed on `/search` (category, date, author)
+- Structure-aware chunking (split on section boundaries instead of a fixed word count)
+- Structured logging (replace `print()` with `logging`)
+- `/ingest` status endpoint (progress, success/failure, papers processed)
+- Rate limiting on `/search` and `/auth/login`
+- Deduplication across paper versions (same `arxiv_id`, different version)
+- Automated tests (pytest)
+- CI pipeline (lint, tests, Docker build) on push
